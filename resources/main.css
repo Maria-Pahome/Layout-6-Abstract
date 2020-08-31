@@ -1,3 +1,4 @@
+/* foarte bine ai lucrat! Felicitari! Cat de dificila ti se pare pozitionarea, ai inteles-o bine si ai si implementat-o asemenea. */
 html, body {
     height: 100%;
     width: 100%;
@@ -64,6 +65,7 @@ html, body {
 .main-container{
     width: 700px;
     height: 300px;
+    /* nu aveai neaparata nevoie de pozitionare aici, puteai sa te concentrezi doar pe centrare orizontala si verticala */
     position: absolute;
     top: 30%;
     left: 30%;
@@ -74,6 +76,7 @@ html, body {
 
 .main-container-wrapper {
     position: relative;
+    /* aici ai cod repetitiv pentru ca si la parent si specificat aceleasi valori pt width si height, poti sa dai 100% */
     width: 700px;
     height: 300px;
 }
